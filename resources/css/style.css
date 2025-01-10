@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    padding: 2rem 0;
+}
+
+a {
+    color: aquamarine;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+main video {
+    width: 30%;
+}
+
+main h2 {
+    font-weight: 300;
+    font-size: 2.2rem;
+}
+
+main p {
+    font-size: 1.2rem;
+    color: gray;
+}
+
+footer p {
+    text-align: right;
+    padding: 1rem;
+}
+
+/* 
+        <img src="./resources/images/camp.jpg" alt="A camping tent at night">
+        <img src="./resources/images/phone.png" alt="Icon of a phone">
+        <a href="#">Download
+            Excursion (Coming soon!)</a> */
